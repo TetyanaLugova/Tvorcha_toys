@@ -1,21 +1,21 @@
-.header {
-  padding: 20px 0;
-}
-
-.nav-list {
+.nav {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
 }
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.logo {
+  font-size: 24px;
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.list-header-menu {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+}
+.item-header-menu {
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 4px;
+}
+.list-social {
+  display: flex;
+  gap: 12px;
 }
