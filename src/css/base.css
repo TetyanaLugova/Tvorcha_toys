@@ -1,9 +1,9 @@
 /* Base */
 body {
   font-family: 'Inter', sans-serif;
-  /* color: #fbfbfb; */
+  color: #000000;
   font-size: 16px;
-  /* background-color: #0e1823; */
+  background-color: #fafafa;
   font-weight: 400;
   margin: 0;
 }
@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 button {

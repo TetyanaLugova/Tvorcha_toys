@@ -1,0 +1,22 @@
+.about-me-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-me-img {
+  border-radius: 8px;
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.about-me-wrap-text {
+  max-width: 550px;
+  padding: 35px 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.3);
+  /* box-shadow: inset 0 0 20px 2px rgba(0, 0, 0, 0.3); */
+}
+.about-me-text {
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
