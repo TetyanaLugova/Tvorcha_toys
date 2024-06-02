@@ -1,0 +1,34 @@
+.master-class-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.master-class-aсcent {
+  font-style: italic;
+  color: rgb(253, 149, 13);
+}
+.master-class-text {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.master-class-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+.master-class-item {
+  width: calc((100% - 48px) / 3);
+}
+.master-class-item::after {
+  content: '';
+  display: block;
+  max-width: 284px;
+  height: 1px;
+  background-color: rgba(250, 250, 250, 0.2);
+  margin-top: 32px;
+}

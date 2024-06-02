@@ -1,5 +1,18 @@
 .gallery-title {
+  font-size: 36px;
   text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.gallery-aсcent {
+  font-style: italic;
+  color: rgb(253, 149, 13);
+}
+.gallery-text {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 .gallery-list {
   display: flex;

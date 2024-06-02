@@ -8,6 +8,7 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  color: black;
 }
 .nav {
   display: flex;
@@ -20,7 +21,12 @@
   padding: 0 6px;
 }
 .logo {
+  color: black;
   font-size: 24px;
+}
+.ac {
+  font-style: italic;
+  color: rgb(253, 149, 13);
 }
 .list-header-menu {
   display: flex;
@@ -28,7 +34,7 @@
   font-size: 18px;
 }
 .item-header-menu {
-  border: 1px solid red;
+  border: 1px solid rgb(253, 149, 13);
   border-radius: 6px;
   padding: 4px;
 }
