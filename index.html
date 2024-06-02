@@ -11,19 +11,21 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
     
     <script type="module" crossorigin src="/Tvorcha_toys/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Tvorcha_toys/assets/index-63103cfb.css">
+    <link rel="stylesheet" href="/Tvorcha_toys/assets/index-10ed63e3.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
     <nav class="nav">
-      <a class="logo" href="">TvorchaToys</a>
+      <a class="logo" href=""> tvorcha.<span class="ac">toys</span></a>
       <ul class="list-header-menu">
         <li class="item-header-menu">
           <a href="#about-me">Про мене</a>
@@ -58,10 +60,10 @@
 
     <section class="hero" id="hero">
   <div>
-    <h1 class="hero-title">
-      Виплети <br />
-      радість
-    </h1>
+    <h1 class="hero-title">Виплети радість</h1>
+    <p class="hero-text">Майстеркласи з в'язання гачком іграшок</p>
+    <p class="hero-btn">МK</p>
+
     <!-- <img src="../img/Creator_toys.jpg" alt="Банер" loading="lazy" /> -->
   </div>
 </section>
@@ -71,8 +73,9 @@
     <h2 class="visually-hidden">Про мене</h2>
     <div class="about-me-wrap-text">
       <p class="about-me-text">
-        Привіт! Мене звати Валя, і я рада поділитися з вами своєю творчістю. Моя
-        історія в'язання розпочалася восени 2018 року, коли на світ з'явився мій
+        Привіт! Мене звати Валя, і я рада поділитися з
+        <span class="about-me-accent">Вами</span> своєю творчістю. Моя історія
+        в'язання розпочалася восени 2018 року, коли на світ з'явився мій
         племінник. Уже через кілька днів після його народження я взяла до рук
         гачок і створила свою першу іграшку спеціально для нього. Відтоді
         в'язання стало для мене справжньою пристрастю і джерелом натхнення.
@@ -81,7 +84,8 @@
         Це маленьке хобі, яке починалося з любові до сім'ї, перетворилося на
         улюблену роботу. Тепер я створюю авторські іграшки, сповнені тепла і
         турботи, для багатьох дітей. Також я ділюся своїми знаннями, пишучи
-        майстеркласи, щоб інші могли розділити мою радість від в'язання.і
+        <span class="about-me-accent">майстеркласи</span>, щоб інші могли
+        розділити мою радість від в'язання.і
       </p>
     </div>
     <img
@@ -97,9 +101,14 @@
 
     <section id="gallery">
   <div class="container">
-    <h2 class="gallery-title">Мої роботи</h2>
-    <ul class="gallery-list">
-      <li class="gallery-item">
+    <h2 class="gallery-title">
+      <span class="gallery-aсcent">Мої</span> роботи
+    </h2>
+    <p class="gallery-text">
+      Створені серцем, виплекані в думках, втілені руками.
+    </p>
+    <ul class="gallery-list swiper-wrapper">
+      <li class="gallery-item swiper-slide">
         <img
           src="/Tvorcha_toys/assets/Gallery_1-8c6a468b.jpg"
           alt="Корівка"
@@ -108,7 +117,7 @@
           loading="lazy"
         />
       </li>
-      <li>
+      <li class="gallery-item swiper-slide">
         <img
           src="/Tvorcha_toys/assets/Gallery_2-8a04bb5b.jpg"
           alt="Зайчик"
@@ -117,7 +126,7 @@
           loading="lazy"
         />
       </li>
-      <li>
+      <li class="gallery-item swiper-slide">
         <img
           src="/Tvorcha_toys/assets/Gallery_3-1da9bfa6.jpg"
           alt="Корівка з бомбонами"
@@ -126,7 +135,7 @@
           loading="lazy"
         />
       </li>
-      <li>
+      <li class="gallery-item swiper-slide">
         <img
           src="/Tvorcha_toys/assets/Gallery_4-eebc45b1.jpg"
           alt="Пряник"
@@ -135,7 +144,7 @@
           loading="lazy"
         />
       </li>
-      <li>
+      <li class="gallery-item swiper-slide">
         <img
           src="/Tvorcha_toys/assets/Gallery_5-73a250a2.jpg"
           alt="Панда"
@@ -144,7 +153,7 @@
           loading="lazy"
         />
       </li>
-      <li>
+      <li class="gallery-item swiper-slide">
         <img
           src="/img/Gallery_6.jpg"
           alt="Курча"
@@ -153,7 +162,7 @@
           loading="lazy"
         />
       </li>
-      <li>
+      <li class="gallery-item swiper-slide">
         <img
           src="/Tvorcha_toys/assets/Gallery_7-c7b428f9.jpg"
           alt="Замріяне зайченя"
@@ -162,7 +171,7 @@
           loading="lazy"
         />
       </li>
-      <li>
+      <li class="gallery-item swiper-slide">
         <img
           src="/Tvorcha_toys/assets/Gallery_8-83b4a858.jpg"
           alt="Єдиноріжка"
@@ -175,7 +184,89 @@
   </div>
 </section>
 
-    
+    <section id="master-class">
+  <div class="container">
+    <h2 class="master-class-title">Майстеркласи</h2>
+    <p class="master-class-text">
+      Створивши одну, Ви обов'язково захочете ще...
+    </p>
+    <ul class="master-class-list">
+      <li class="master-class-item">
+        <img
+          src="/Tvorcha_toys/assets/Gallery_1-8c6a468b.jpg"
+          alt="Корівка"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+      <li class="master-class-item">
+        <img
+          src="/Tvorcha_toys/assets/Gallery_2-8a04bb5b.jpg"
+          alt="Зайчик"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+      <li class="master-class-item">
+        <img
+          src="/Tvorcha_toys/assets/Gallery_3-1da9bfa6.jpg"
+          alt="Корівка з бомбонами"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+      <li class="master-class-item">
+        <img
+          src="/Tvorcha_toys/assets/Gallery_4-eebc45b1.jpg"
+          alt="Пряник"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+      <li class="master-class-item">
+        <img
+          src="/Tvorcha_toys/assets/Gallery_5-73a250a2.jpg"
+          alt="Панда"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+      <li class="master-class-item">
+        <img
+          src="/img/Gallery_6.jpg"
+          alt="Курча"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+      <li class="master-class-item">
+        <img
+          src="/Tvorcha_toys/assets/Gallery_7-c7b428f9.jpg"
+          alt="Замріяне зайченя"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+      <li class="master-class-item">
+        <img
+          src="/Tvorcha_toys/assets/Gallery_8-83b4a858.jpg"
+          alt="Єдиноріжка"
+          width="284px"
+          height="260px"
+          loading="lazy"
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+
     
     
   </body>
